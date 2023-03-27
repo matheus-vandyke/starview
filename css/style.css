@@ -32,137 +32,6 @@
 	display: none;
 }
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 600px) {
-	.topnav a:not(:first-child) {
-		display: none;
-	}
-
-	.topnav a.icon {
-		float: right;
-		display: block;
-	}
-}
-
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 600px) {
-	.topnav.responsive {
-		position: relative;
-	}
-
-	.topnav.responsive a.icon {
-		position: absolute;
-		right: 0;
-		top: 0;
-	}
-
-	.topnav.responsive a {
-		float: none;
-		display: block;
-		text-align: left;
-	}
-}
-
-@media screen and (min-width: 1024px) {
-
-	.en-map-desktop {
-		display: block;
-	}
-	
-	.pt-map-desktop {
-		display: none;
-	}
-
-	.en-map-mobile {
-		display: none;
-	}
-	
-	.pt-map-mobile {
-		display: none;
-	}
-
-}
-
-.banner {
-	position: relative;
-	text-align: center;
-	left: 0%;
-	right: 0%;
-	top: 0%;
-	bottom: 94.57%;
-	background: #ffffff;
-}
-
-.img-banner {
-	position: relative;
-	display: inline-block;
-	width: 60px;
-	height: 60px;
-	margin-top: 8px;
-}
-
-.p-banner {
-	position: relative;
-	display: inline-block;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 24px;
-	line-height: 32px;
-	color: #000000;
-	bottom: 20px;
-	left: 10px;
-}
-
-.container-1 {
-	position: static;
-	background-color: #000000;
-	height: 600px;
-}
-
-.container-2 {
-	position: static;
-	background-color: hsl(229, 100%, 21%);
-	height: 600px;
-}
-
-.p-container-2 {
-	color: #ffffff;
-	text-align: center;
-	font-size: 30px;
-	padding: 20px;
-	padding-top: 12rem;
-}
-
-.container-3 {
-	position: static;
-	color: #ffffff;
-	height: 200px;
-}
-
-.p-container-3 {
-	color: #000000;
-	text-align: center;
-	font-size: 25px;
-	padding: 20px;
-	padding-top: 2.5rem;
-}
-
-.en-map-mobile {
-	display: block;
-}
-
-.pt-map-mobile {
-	display: none;
-}
-
-.en-map-desktop {
-	display: none;
-}
-
-.pt-map-desktop {
-	display: none;
-}
-
 .floating-btn {
 	position: fixed;
 	bottom: 20px;
@@ -181,4 +50,283 @@
 .floating-btn:hover {
 	background: hsl(216, 15%, 52%);
 	color: hsl(214, 32%, 91%);
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 1024px) {
+	.topnav a:not(:first-child) {
+		display: none;
+	}
+
+	.topnav a.icon {
+		float: right;
+		display: block;
+	}
+
+	.topnav.responsive {
+		position: relative;
+	}
+
+	.topnav.responsive a.icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	.topnav.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+
+	.banner {
+		position: relative;
+		text-align: center;
+		left: 0%;
+		right: 0%;
+		top: 0%;
+		bottom: 94.57%;
+		background: #ffffff;
+	}
+	
+	.img-banner {
+		position: relative;
+		display: inline-block;
+		width: 60px;
+		height: 60px;
+		margin-top: 8px;
+	}
+	
+	.p-banner {
+		position: relative;
+		display: inline-block;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 24px;
+		line-height: 32px;
+		color: #000000;
+		bottom: 20px;
+		left: 10px;
+	}
+
+	.en-map-mobile {
+		display: block;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+
+	.pt-map-mobile {
+		display: none;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+
+	.en-map-desktop {
+		display: none;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+
+	.pt-map-desktop {
+		display: none;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+
+	.button {
+		background-color: #ffffff;
+		/* Green */
+		border: none;
+		color: rgb(0, 0, 0);
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+	}
+
+	.container-1 {
+		position: relative;
+		background-color: #000000;
+		height: 600px;
+	}
+
+	.container-2 {
+		position: static;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		background-color: hsl(229, 100%, 21%);
+		height: 600px;
+	}
+
+	.p-container-2 {
+		color: #ffffff;
+		text-align: center;
+		font-size: 30px;
+		padding: 20px;
+		padding-top: 2rem;
+		letter-spacing: 2px;
+		line-height: 37px;
+	}
+
+	.container-3 {
+		position: static;
+		color: #ffffff;
+		height: 200px;
+	}
+
+	.p-container-3 {
+		color: #000000;
+		text-align: center;
+		font-size: 25px;
+		padding: 20px;
+		padding-top: 2rem;
+	}
+
+}
+
+@media screen and (min-width: 1024px) {
+
+	.banner {
+		position: relative;
+		text-align: center;
+		left: 0%;
+		right: 0%;
+		top: 0%;
+		bottom: 94.57%;
+		background: #ffffff;
+	}
+	
+	.img-banner {
+		position: relative;
+		display: inline-block;
+		width: 125px;
+		height: 125px;
+		margin-top: 8px;
+	}
+	
+	.p-banner {
+		position: relative;
+		display: inline-block;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 40px;
+		line-height: 32px;
+		color: #000000;
+		bottom: 50px;
+		left: 10px;
+	}
+
+	.en-map-desktop {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		display: block;
+	}
+
+	.pt-map-desktop {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		display: none;
+	}
+
+	.en-map-mobile {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		display: none;
+	}
+
+	.pt-map-mobile {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		display: none;
+	}
+
+	.button {
+		background-color: #ffffff;
+		/* Green */
+		border: none;
+		color: rgb(0, 0, 0);
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+	}
+
+	.container-1 {
+		position: relative;
+		background-color: #000000;
+		height: 600px;
+	}
+
+	.container-2 {
+		position: static;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		background-color: hsl(229, 100%, 21%);
+		height: 300px;
+	}
+
+	.p-container-2 {
+		color: #ffffff;
+		text-align: center;
+		font-size: 30px;
+		padding: 20px;
+		padding-top: 1rem;
+		letter-spacing: 2px;
+		line-height: 37px;
+	}
+
+	.container-3 {
+		position: static;
+		color: #ffffff;
+		height: 100px;
+	}
+
+	.p-container-3 {
+		color: #000000;
+		text-align: center;
+		font-size: 25px;
+		padding: 20px;
+		padding-top: 2rem;
+	}
+
 }
