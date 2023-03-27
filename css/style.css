@@ -1,0 +1,19 @@
+
+
+.floating-btn {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background: var(--accent);
+	color: var(--white);
+  padding: 10px 20px;
+	border-radius: 50px;
+	font-size: 30px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.floating-btn:hover {
+	background: var(--foreground-secondary);
+  color: var(--action-primary);
+}
