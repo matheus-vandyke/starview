@@ -63,6 +63,26 @@
 	}
 }
 
+@media screen and (min-width: 1024px) {
+
+	.en-map-desktop {
+		display: block;
+	}
+	
+	.pt-map-desktop {
+		display: none;
+	}
+
+	.en-map-mobile {
+		display: none;
+	}
+	
+	.pt-map-mobile {
+		display: none;
+	}
+
+}
+
 .banner {
 	position: relative;
 	text-align: center;
@@ -125,6 +145,22 @@
 	font-size: 25px;
 	padding: 20px;
 	padding-top: 2.5rem;
+}
+
+.en-map-mobile {
+	display: block;
+}
+
+.pt-map-mobile {
+	display: none;
+}
+
+.en-map-desktop {
+	display: none;
+}
+
+.pt-map-desktop {
+	display: none;
 }
 
 .floating-btn {
