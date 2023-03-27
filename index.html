@@ -13,30 +13,96 @@
 
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="/js/navbar.js"></script>
   </head>
 </html>
 
 
+
+<body>
 
 <a href="./index.html" class="floating-btn">
     <ion-icon name="home-outline"></ion-icon>
 </a>
 
 <header>
-    <nav class="navbar">
-        <a href="#" class="navbar-logo"><img src="images/logo-view-stars.png" alt="website's logo">Logo</a>
-        <ul class="navbar-menu">
-            <li class="navbar-item"><a href="#">Home (Constellation Above You)</a></li>
-            <li class="navbar-item"><a href="#">Star Map</a></li>
-            <li class="navbar-item"><a href="#">Search a Star</a></li>
-            <li class="navbar-item"><a href="#">About Me</a></li>
-        </ul>
-        <button class="navbar-toggle">
-            <span class="navbar-toggle-icon"></span>
-        </button>
-    </nav>
+    <div class="container">
+        <nav class="navbar">
+          <a href="./index.html">
+            <img
+              src="./images/logo-view-stars.png"
+              alt="logo do site"
+              width="150"
+              height="150"
+              class="logo"
+            />
+          </a>
+
+          <div class="btn-group">
+            <button class="nav-menu-btn">
+              <ion-icon name="menu-outline"></ion-icon>
+            </button>
+          </div>
+
+          <div class="flex-wrapper">
+            <ul class="desktop-nav">
+              <li>
+                <a href="#" class="nav-link">Início</a>
+              </li>
+
+              <li>
+                <a href="./sobre-mim.html" class="nav-link">Sobre Mim</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="mobile-nav">
+            <button class="nav-close-btn">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="wrapper">
+              <p class="h3 nav-title">Menu</p>
+
+              <ul>
+                <li class="nav-item-href">
+                  <a href="./index.html" class="nav-link-href">Início</a>
+                </li>
+
+                <li class="nav-item-href">
+                  <a href="./sobre-mim.html" class="nav-link-href">Sobre Mim</a>
+                </li>
+              </ul>
+            </div>
+
+            <!--
+            <div>
+              <p class="h3 nav-title">Tópicos</p>
+
+              <ul>
+                <li class="nav-item" data-topic="romantico">
+                  <a href="#" class="nav-link">Romântico</a>
+                </li>
+
+                <li class="nav-item" data-topic="saude-mental">
+                  <a href="#" class="nav-link">Saúde Mental</a>
+                </li>
+
+                <li class="nav-item" data-topic="reflexao">
+                  <a href="#" class="nav-link">Reflexão</a>
+                </li>
+
+                <li class="nav-item" data-topic="ficcao">
+                  <a href="#" class="nav-link">Ficção</a>
+                </li>
+              </ul>
+            </div>
+            -->
+          </div>
+        </nav>
+      </div>
 </header>
 
-
-
-<script src="/js/navbar.js"></script>
+</body>
