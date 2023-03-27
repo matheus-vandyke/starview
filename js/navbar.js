@@ -1,11 +1,9 @@
-// variaveis da navbar
-const nav = document.querySelector('.mobile-nav');
-const navMenuBtn = document.querySelector('.nav-menu-btn');
-const navCloseBtn = document.querySelector('.nav-close-btn');
-
-
-// função de navtoggle
-const navToggleFunc = function () { nav.classList.toggle('active'); }
-
-navMenuBtn.addEventListener('click', navToggleFunc);
-navCloseBtn.addEventListener('click', navToggleFunc)
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function navBar() {
+    var x = document.getElementById("myNavBar");
+    if (x.className === "navbar") {
+        x.className += "responsive";
+    } else {
+        x.className = "navbar";
+    };
+};
