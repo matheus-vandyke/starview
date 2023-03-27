@@ -1,4 +1,4 @@
-<html lang="">
+<html lang="en-pt">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -29,6 +29,7 @@
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="/js/navbar.js"></script>
+    <script src="/js/language-btns.js"></script>
 </body>
   </head>
 </html>
@@ -37,19 +38,19 @@
 
 <body>
 
-<a href="./index.html" class="floating-btn">
+<a href="./index-en.html" class="floating-btn">
     <ion-icon name="home-outline"></ion-icon>
 </a>
 
 <header>
   <div class="topnav" id="myTopnav">
-    <a href="#news" class="active">Home (Constellation)</a>
-    <a href="#contact">Star Map</a>
-    <a href="#about">Search a Star</a>
-    <a href="#about">About</a>
-    <a href="#apis">API's</a>
-    <a class="btn-en" href="#english">English</a>
-    <a class="btn-pt" href="#portuguese">Português</a>
+    <a href="#" class="active">Home (Constellation)</a>
+    <a href="./en/star-map-en.html">Star Map</a>
+    <a href="#">Search a Star</a>
+    <a href="#">About</a>
+    <a href="#">API's</a>
+    <a id="btn-english" href="/index-en.html">English</a>
+    <a id="btn-portuguese" href="/pt/index-pt.html">Português</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
@@ -72,12 +73,14 @@
 </div>
 
 <div class="container-2">
+
   <p class="p-container-2">
     This is where you can view the stars above you.
     <br>
     StarView is a website that allow users to view stars
-    and constellations via the sky-map.org and VirtualSky API
+    and constellations via the sky-map.org and VirtualSky API's
   </p>
+
   <button class="button">API</button>
 </div>
 

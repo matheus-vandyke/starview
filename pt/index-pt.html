@@ -1,0 +1,91 @@
+<html lang="en-pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>View Stars</title>
+
+    <link
+      rel="shortcut icon"
+      href="../images/logo-view-stars.png"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <style>
+      @font-face {
+        font-family: 'JetBrains Mono';
+        src: url('/fonts/JetBrainsMono-Medium.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+      }
+      
+      body {
+        font-family: 'JetBrains Mono', monospace;
+      }
+      </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="../js/navbar.js"></script>
+    <script src="../js/language-btns.js"></script>
+</body>
+  </head>
+</html>
+
+
+
+<body>
+
+<a href="./index-pt.html" class="floating-btn">
+    <ion-icon name="home-outline"></ion-icon>
+</a>
+
+<header>
+  <div class="topnav" id="myTopnav">
+    <a href="#" class="active">Home (Constelação)</a>
+    <a href="/pt/star-map-pt.html">Mapa Estelar</a>
+    <a href="#">Procure uma Estrela</a>
+    <a href="#">Sobre</a>
+    <a href="#">API's</a>
+    <a id="btn-english" href="../index-en.html">English</a>
+    <a id="btn-portuguese" href="./index-pt.html">Português</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <div class="banner">
+    <img class="img-banner"src="/images/logo-view-stars.png" alt="website's logo">
+    <p class="p-banner">StarView</p>
+  </div>
+</header>
+
+<div class="container-1">
+  <iframe class="en-map-mobile" width="350" height="550" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://slowe.github.io/VirtualSky/embed?&projection=stereo&constellations=true&constellationlabels=true&meteorshowers=true&showstarlabels=true&live=true&az=54.75&lang=en" allowTransparency="true"></iframe>
+
+  <iframe class="pt-map-mobile" width="350" height="550" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://slowe.github.io/VirtualSky/embed?&projection=stereo&constellations=true&constellationlabels=true&meteorshowers=true&showstarlabels=true&live=true&az=54.75&lang=en" allowTransparency="true"></iframe>
+
+  <iframe class="en-map-desktop" width="1100" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://slowe.github.io/VirtualSky/embed?&projection=stereo&constellations=true&constellationlabels=true&meteorshowers=true&showstarlabels=true&live=true&az=54.75&lang=en" allowTransparency="true"></iframe>
+
+  <iframe class="pt-map-desktop" width="1100" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://slowe.github.io/VirtualSky/embed?&projection=stereo&constellations=true&constellationlabels=true&meteorshowers=true&showstarlabels=true&live=true&az=54.75&lang=en" allowTransparency="true"></iframe>
+</div>
+
+<div class="container-2">
+
+  <p class="p-container-2">
+    Aqui é onde você pode ver as estrelas acima de você
+    <br>
+    StarView é um site que permite que usuarios vejam as estrelas
+    e constelações através das API's do sky-map.org e VirtualSky
+  </p>
+
+  <button class="button">API</button>
+</div>
+
+<div class="container-3">
+  <p class="p-container-3"> Esse site é Open Source e licenciado sob a licença Apache v2</p>
+</div>
+
+</body>
