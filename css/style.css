@@ -158,7 +158,8 @@
 		text-align: center;
 		text-decoration: none;
 		display: inline-block;
-		font-size: 16px;
+		font-size: 20px;
+		font-weight: bold;
 	}
 
 	.container-1 {
@@ -183,7 +184,17 @@
 		text-align: center;
 		font-size: 30px;
 		padding: 20px;
-		padding-top: 2rem;
+		padding-top: 5%;
+		letter-spacing: 2px;
+		line-height: 37px;
+	}
+
+	.p-container-2-pt {
+		color: #ffffff;
+		text-align: center;
+		font-size: 24px;
+		padding: 15px;
+		padding-top: 0.5rem;
 		letter-spacing: 2px;
 		line-height: 37px;
 	}
@@ -285,7 +296,8 @@
 		text-align: center;
 		text-decoration: none;
 		display: inline-block;
-		font-size: 16px;
+		font-size: 20px;
+		font-weight: bold;
 	}
 
 	.container-1 {
@@ -308,9 +320,19 @@
 	.p-container-2 {
 		color: #ffffff;
 		text-align: center;
-		font-size: 30px;
+		font-size: 25px;
 		padding: 20px;
 		padding-top: 1rem;
+		letter-spacing: 2px;
+		line-height: 37px;
+	}
+
+	.p-container-2-pt {
+		color: #ffffff;
+		text-align: center;
+		font-size: 25px;
+		padding: 20px;
+		padding-top: 0.5rem;
 		letter-spacing: 2px;
 		line-height: 37px;
 	}
