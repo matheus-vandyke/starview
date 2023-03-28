@@ -56,6 +56,11 @@
 	color: yellow;
 }
 
+.a-button {
+	text-decoration: none;
+	color: #000000;
+}
+
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (min-width: 100px) {
 	.topnav a:not(:first-child) {
@@ -231,6 +236,12 @@
 }
 
 @media screen and (min-width: 700px) {
+
+	.container-1 {
+		position: relative;
+		background-color: #000000;
+		height: 900px;
+	}
 
 	.en-map-mobile {
 		position: absolute;
