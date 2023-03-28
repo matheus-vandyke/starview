@@ -183,6 +183,17 @@
 		height: 600px;
 	}
 
+	.about-me {
+		position: static;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		background-color: hsl(229, 100%, 21%);
+		height: 700px;
+	}
+
 	.p-container-2 {
 		color: #ffffff;
 		text-align: center;
@@ -202,6 +213,16 @@
 		letter-spacing: 2px;
 		line-height: 37px;
 	}
+
+	.me {
+		width: 100px;
+		height: 100px;
+		border-radius: 25%;
+		-webkit-border-radius: 25%;
+		-moz-border-radius: 25%;
+		-ms-border-radius: 25%;
+		-o-border-radius: 25%;
+}
 
 	.container-3 {
 		position: static;
@@ -321,6 +342,17 @@
 		height: 300px;
 	}
 
+	.about-me {
+		position: static;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		background-color: hsl(229, 100%, 21%);
+		height: 600px;
+	}
+
 	.p-container-2 {
 		color: #ffffff;
 		text-align: center;
@@ -340,6 +372,16 @@
 		letter-spacing: 2px;
 		line-height: 37px;
 	}
+
+	.me {
+		height: 200px;
+		width: 200px;
+		border-radius: 25%;
+		-webkit-border-radius: 25%;
+		-moz-border-radius: 25%;
+		-ms-border-radius: 25%;
+		-o-border-radius: 25%;
+}
 
 	.container-3 {
 		position: static;
