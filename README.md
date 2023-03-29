@@ -37,7 +37,7 @@ Pode entrar em contato pelo email: matheusvandyke333@gmail.com. / You can contac
 
 ## Site Hospedado / Hosted Website
 
-https://matheus-vandyke.github.io/
+http://star-view.epizy.com/index.html
 
 ## Licença / License
 
