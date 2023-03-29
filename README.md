@@ -1,4 +1,4 @@
-# StarView - Veja constelações usando uma API / View Constellations using a API
+# StarView - Veja constelações usando uma API / View Constellations using an API
 
 StarView é um site que permite que usarios vejam as constelações acima deles, uma mapa estelar, e busquem por estrelas usando a API do Sky-map-org e VirtualSky, o  site esta disponivel em inglês e português. / StarView is a website that allows users to see the constellations above them, a star map, and search for stars using the Sky-map-org API and VirtualSky, the website is available in English and Portuguese.
 
